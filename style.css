@@ -189,9 +189,6 @@ main {
     align-items: center;
 }
 
-/* .container2 img {
-    width: 200px;
-} */
 
 .column-left {
     width: 250px;
@@ -220,4 +217,26 @@ main {
 
 .column-right img {
     width: 200px;
+}
+
+
+/* container 3 */
+
+.container3 {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1024px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.card-vertical {
+    width: 1024px;
+    height: 150px;
+    background-color: #9792e4;
+    border-radius: 20px;
 }
