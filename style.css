@@ -224,7 +224,6 @@ main {
 
 .container3 {
     width: 80%;
-    margin: 0 auto;
     max-width: 1024px;
     margin: 50px auto;
     display: flex;
@@ -239,4 +238,20 @@ main {
     height: 150px;
     background-color: #9792e4;
     border-radius: 20px;
+}
+
+/* container 4 */
+
+.container4 {
+    width: 80%;
+    max-width: 1024px;
+    margin: 50px auto;
+}
+
+.card-section4 {
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: #9792e4;
+    display: flex;
+    flex-wrap: wrap;
 }
