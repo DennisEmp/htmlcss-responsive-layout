@@ -6,7 +6,6 @@
 
 .container {
     width: 80%;
-    height: 75px;
     margin: 0 auto;
     max-width: 1024px;
 }
@@ -46,6 +45,7 @@ header li {
     height: 36px;
     border-radius: 20px;
     text-decoration: none;
+    border: 0;
 }
 
 /* MAIN */
@@ -58,6 +58,7 @@ main {
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
@@ -66,11 +67,11 @@ main {
     border-radius: 20px;
     /* debug */
         min-height: 300px;
-        margin: 5px 5px;
+        margin: 5px;
 }
 
 .card.big {
-    width: calc( (100% / 3) * 2);
+    width: calc(( (100% / 3) * 2) - 10px);
     display: flex;
     gap: 50px;
 }
@@ -138,7 +139,7 @@ main {
     justify-content: center;
     flex-direction: column;
     background-color: #b5ddff;
-    width: calc( (100% / 3) - 20px);
+    width: calc( (100% / 3) - 10px);
     border-radius: 20px;
     align-items: center;
     padding: 30px;
