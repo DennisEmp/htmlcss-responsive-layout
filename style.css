@@ -85,7 +85,7 @@ main {
 
 .section1-button {
     width: 150px;
-    height: 25px;
+    height: 30px;
     background-color: #0084fd;
     color: #fff;
     border-radius: 20px;
@@ -131,4 +131,34 @@ main {
 .txt-card {
     font-size: 16px;
     line-height: 30px;
+}
+
+.card-small {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b5ddff;
+    width: calc( (100% / 3) - 20px);
+    border-radius: 20px;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    /* debug */
+        min-height: 300px;
+        margin: 5px 5px;
+}
+
+.card-small i {
+    font-size: 60px;
+    color: #0084fd;
+}
+
+.card-small p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-small h3 {
+    color: #0084fd;
+    font-size: 22px;
 }
