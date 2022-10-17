@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    background-color: #0084fd;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-button {
+    width: 123px;
+    height: 36px;
+    border-radius: 20px;
+    text-decoration: none;
+}
