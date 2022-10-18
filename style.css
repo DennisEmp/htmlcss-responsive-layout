@@ -399,3 +399,54 @@ footer {
 #link-viola a {
     color: #9792e4;
 }
+
+
+
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .card.big {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 450px;
+    }
+
+    .leftside {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 84px;
+        
+
+    }
+    
+    .rightside img {
+        margin-left: 45px;
+        margin-bottom: 50px;
+    }
+
+    .txt-card {
+        width: 150%;
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .section1-button {
+        margin-top: -6px;
+        margin-bottom: -35px;
+    }
+
+    .card-small {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
