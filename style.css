@@ -268,6 +268,10 @@ main {
     padding-bottom: 50px;
 }
 
+.container-cards-section4 .card-small {
+    background-color: #fff;
+}
+
 /* section 5 */
 
 .container-section5 {
@@ -490,4 +494,15 @@ footer {
         color: #9792e4;
         font-size: 40px;
     }
+
+    .container-cards-section4 {
+        width: 90%;
+    }
+
+    .container-cards-section4 .card-small {
+        width: calc((100% / 2) - 10px);
+        background-color: #fff;
+    }
+
+    /* section 5 */
 }
