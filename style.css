@@ -48,6 +48,10 @@ header li {
     border: 0;
 }
 
+#hamburger {
+    display: none;
+}
+
 /* MAIN */
 
 main {
@@ -414,6 +418,16 @@ footer {
         width: 95%;
     }
 
+    .container nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+
     .card.big {
         display: flex;
         flex-direction: column;
@@ -518,6 +532,16 @@ footer {
 
     .container {
         width: 90%;
+    }
+
+        .container nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        color: #fff;
+        font-size: 25px;
     }
 
     .cards {
