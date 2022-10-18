@@ -505,4 +505,8 @@ footer {
     }
 
     /* section 5 */
+
+    .column-aboutus p {
+        line-height: 30px;
+    }
 }
