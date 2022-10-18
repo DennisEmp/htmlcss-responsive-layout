@@ -479,4 +479,15 @@ footer {
         margin-bottom: 60px;
         margin-top: -210px;
     }
+
+    /* container 3 */
+
+    .card-vertical {
+        width: 100%;
+    }
+
+    .container3 h2 {
+        color: #9792e4;
+        font-size: 40px;
+    }
 }
